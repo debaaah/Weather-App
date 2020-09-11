@@ -1,0 +1,153 @@
+body{
+    background: repeating-linear-gradient(45deg, #cc6699, #df9fbf 70%);
+    background-attachment: fixed;
+    color: #000;
+    height: 100vh;;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+}
+.locationbox{
+    display: flex;
+    margin-top: 7px;
+}
+.locate{
+    width: 2vw;
+}
+.greeting{
+    white-space: nowrap;
+    font-weight: normal;
+}
+input{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 0;
+    margin-left: 10px;
+}
+button{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 0;
+}
+form{
+    margin-top: 2vh;
+    height: 4vh;
+    width: auto;
+}
+button:hover{
+    background-color: rgba(77, 77, 77, 0.7);
+    color: #fff;
+    /*box-shadow: 0 0 10px #cc6699;*/
+}
+button:focus{
+    background-color: rgba(77, 77, 77, 0.7);
+    color: #fff;
+}
+input:hover{
+    box-shadow: 0 0 10px #4d4d4d;
+}
+input:focus{
+    box-shadow: 0 0 10px #4d4d4d;
+    border: 0;
+}
+label{
+    white-space: nowrap;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+.input{
+    display: flex;
+    margin-top: 2vh;
+    min-height: 4vh;
+    width: auto;
+}
+.msg{
+    position: relative;
+    top: 25px;
+    left: 10px;
+    color: #ffffff;
+    background-color: #4d4d4d;
+    width: fit-content;
+}
+.weatherbox{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.weatherbox:hover{
+    transform: scale(1.1);
+}
+.tempni{
+   margin-bottom: 5vh;
+    width: inherit;
+}
+.icon{
+    width: auto;
+    height: auto;
+    border-left: 2px dotted;
+    padding-left: 5vw;
+}
+.datebox{
+    margin-bottom: 1.1vh;
+}
+.tempbox{
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 5.1vw;
+}
+sup{
+    font-weight: lighter;
+}
+.description, .feelsbox{
+    font-size: 17px;
+    
+}  
+.smashit{
+    white-space: nowrap;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #4d4d4d;
+    filter: blur(0.5px);
+}
+label{
+    display: table-caption;
+}
+.newboxes{
+    padding: 15px;
+}
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+[class*="newlocation"]{
+    font-weight: bold;
+    margin-bottom: 4vh;
+}
+@media screen and (min-width: 768px){
+    .weatherbox{
+    padding-left: 55px;
+        padding-right: 55px;
+    }
+}
+@media screen and (min-width: 1100px){
+    .weatherbox{
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+}
+
+/*
+
+*/

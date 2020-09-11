@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html  lang='en'>
+    <head>
+        <meta charset = 'utf-8'>
+        <meta name="description" content="A trusted source for your accurate weather report">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#4d4d4d"/>
+        <link rel="apple-touch-icon" href="/icons/regicon512.png">
+        <link rel="stylesheet" href="weatherbysmashit.css">
+        <link rel="manifest" href="manifest.json">
+        <title>Weather by Smash It</title>
+    </head>
+
+
+    <body>
+        <header><h3 class="smashit">SMASH IT</h3>
+            </header>
+            
+            <form onsubmit="return false;">
+                <label for='locationbox'>Enter your location:</label>
+                <div class='input'>
+            <input type="text" id='locationbox'>
+                <button type="button" onclick="inputvalue();">Search</button>
+                </div>
+            </form>
+          <p class='msg'></p>
+            <ol class="newboxes"></ol>
+            
+        <script src="weatherbysmashit.js"></script>
+    </body>
+</html>
